@@ -10,6 +10,8 @@
 
  - Design_Patterns.pdf: Graphical representation and explanation of the design patterns used in the software.
 
+ - ImplementationInC++.pdf: Explanation and justification of how the code satisfies the design.
+
  - System Designs Diagrams: Contains the four necessary diagrams (use case diagram, class diagram, sequence diagram for a scenario, and package diagram) along with explanations of their implementation and what they convey.
 
  - Source Code: Contains all source and header files necessary for the program to function.
