@@ -6,17 +6,15 @@
 ##CONTENTS:
 
 
- - AgentTaskSpreadsheet.pdf: Detailed table outlining completed and planned tasks, and who contributed to them
+ - Development_Plans.xlsx: Tab 1: Excel sheet outling the timeline of tasks completed and remaining. Tab 2: Agent-task allocation.
 
- - Timeline.pdf: Table that highlights all of the tasks and their completion date or expected completion date
+ - Design_Patterns.pdf: Graphical representation and explanation of the design patterns used in the software.
 
- - Design_Patterns.pdf: Graphical representation and explanation of the design patterns used in the implementation
+ - System Designs Diagrams: Contains the four necessary diagrams (use case diagram, class diagram, sequence diagram for a scenario, and package diagram) along with explanations of their implementation and what they convey.
 
- - System Designs Diagrams folder: Contains the four necessary diagrams (use case diagram, class diagram, sequence diagram for a scenario, and package diagram) along with their explanations
+ - Source Code: Contains all source and header files necessary for the program to function.
 
- - Source Code folder: Contains all source and header files necessary for program to function
-
- - Executable folder: Contains executable to run application
+ - Executable: Contains executable to run application.
 
 -------------------------------------------
 
@@ -25,6 +23,6 @@ Build Instructions:
   Simply unzip the folder and open the 'Executable' folder. Double click the executable 'Grapefuit_exe' and the program will begin running. 
   
 Notes:
- - Built on a Windows 10 Machine
- - It currently uses a modified .csv file for grants because the original grants .csv file contained "LF" characters which added large spaces in the file content and made using the getline() C++ function unusable. This "LF" character was not found in the other .csv files and was not discovered in the original grants .csv file until late. This problem will be resolved for v2 submission.
+ - Built on a Windows 10 Machine, confirmed as working for Windows 7
+ - Note: Negative dollar values may be displayed when using the grants ".csv" files. This is due to the test files containing dollar amounts that exceed the maximum value that an integer data type can hold. Since a C++ integer can hold a maximum value of $2^31 = $2.15 billion, and it is unexpected that anyone will receive a grant greater than $2.15 billion, this issue was left unaddressed.
 
