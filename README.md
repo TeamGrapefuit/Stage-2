@@ -10,7 +10,7 @@
 
  - Timeline.pdf: Table that highlights all of the tasks and their completion date or expected completion date
 
- - Design_Patterns.pdg: Graphical representation and explanation of the design patterns used in the implementation
+ - Design_Patterns.pdf: Graphical representation and explanation of the design patterns used in the implementation
 
  - System Designs Diagrams folder: Contains the four necessary diagrams (use case diagram, class diagram, sequence diagram for a scenario, and package diagram) along with their explanations
 
