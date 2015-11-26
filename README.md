@@ -22,7 +22,7 @@
 
 ##EXECUTABLE:
 Build Instructions:
-  Simply unzip the folder and open the 'Executable' folder. Double click the executable 'Grapefuit_exe' and the program will begin running. 
+  Simply unzip the folder, open the 'Executable' folder and navigate to the "release" folder. Double click the executable 'grapefuit_exe' and the program will begin running. 
   
 Notes:
  - Built on a Windows 10 Machine, confirmed as working for Windows 7
